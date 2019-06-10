@@ -22,11 +22,13 @@
     "build": "webpack -p --devtool source-map"
   },
   "keywords": [],
-  "author": "",
+  "author": "Leslie Shea",
   "license": "ISC",
   "dependencies": {
+    "promise-middleware-redux": "^1.1.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "redux": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
