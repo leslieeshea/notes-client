@@ -31,8 +31,8 @@ class CreateNote extends PureComponent {
 
     return (
       <NoteForm
-        onSubmit={this.onSubmit}
-        onChange={this.onChange}
+        onSubmit={this.handleSubmit}
+        onChange={this.handleChange}
         title={title}
         body={body}
         submitText="Create Note"
