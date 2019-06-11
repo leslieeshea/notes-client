@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notes component can render notes 1`] = `
+<ul>
+  <li
+    key="123"
+  >
+    <Note
+      note={
+        Object {
+          "_id": "123",
+          "body": "goodbye",
+          "title": "hello there",
+        }
+      }
+    />
+  </li>
+</ul>
+`;
