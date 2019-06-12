@@ -20,7 +20,7 @@ export const handleAuth = () => {
           if(err) return reject('Could not get user profile.');
           resolve({
             username: profile.name,
-            token: results.accessToken,
+            token: results.idToken,
             image: profile.picture
           });
         });
